@@ -23,6 +23,8 @@ module "aware_virtual_network" {
     resource_group_name      = "My Resource Group"
     address_spaces           = ["10.0.0.0/16"]
     dns_servers              = ["10.0.0.4", "10.0.0.5"]
+    description              = "describe here your VNet"
+    custom_location          = "West Europe"        
 }
 ```
 
